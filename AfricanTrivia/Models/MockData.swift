@@ -15,7 +15,7 @@ struct MockData {
         id: "fact_hist_001",
         category: .historicalMoment,
         title: "Battle of Adwa",
-        shortDescription: "Ethiopia's decisive victory over Italy in 1896",
+        shortDescription: "On March 1, 1896, Ethiopian forces led by Emperor Menelik II defeated the Italian army at the Battle of Adwa. This victory preserved Ethiopia's independence and made it the only African nation to successfully resist European colonization during the Scramble for Africa.",
         fullContent: """
         On March 1, 1896, Ethiopian forces led by Emperor Menelik II defeated the Italian army at the Battle of Adwa. This victory preserved Ethiopia's independence and made it the only African nation to successfully resist European colonization during the Scramble for Africa.
 
@@ -36,7 +36,9 @@ struct MockData {
         id: "fact_lang_001",
         category: .africanLanguage,
         title: "Swahili Word: Jambo",
-        shortDescription: "A common greeting in East Africa",
+        shortDescription: """
+        'Jambo' is one of the most recognized Swahili words, commonly used as a greeting meaning "Hello" or "Hi."
+        """,
         fullContent: """
         'Jambo' is one of the most recognized Swahili words, commonly used as a greeting meaning "Hello" or "Hi."
 
@@ -57,7 +59,8 @@ struct MockData {
         id: "fact_geo_001",
         category: .geography,
         title: "Lake Victoria",
-        shortDescription: "Africa's largest lake by area",
+        shortDescription: "Lake Victoria is the largest lake in Africa and the world's second-largest freshwater lake by surface area, covering approximately 68,800 square kilometers.",
+        
         fullContent: """
         Lake Victoria is the largest lake in Africa and the world's second-largest freshwater lake by surface area, covering approximately 68,800 square kilometers.
 
@@ -78,7 +81,7 @@ struct MockData {
         id: "fact_person_001",
         category: .notablePerson,
         title: "Wangari Maathai",
-        shortDescription: "First African woman to win the Nobel Peace Prize",
+        shortDescription: "First African woman to win the Nobel Peace Prize. Wangari Maathai (1940-2011) was a Kenyan environmental and political activist who founded the Green Belt Movement in 1977",
         fullContent: """
         Wangari Maathai (1940-2011) was a Kenyan environmental and political activist who founded the Green Belt Movement in 1977.
 
